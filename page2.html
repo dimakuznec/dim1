@@ -106,10 +106,15 @@
 
      <form action="#" name="MyForm">
      <p>
-      <input type="text">
+     <label for="name">Укажите имя:</label>
+     <input id="name" type="text" placeholder="Ваше имя?" required>
      </p>
      <p>
-      <input type="submit"value="Кнопка">
+      <label for="mail">Укажите e-mail:</label>
+      <input id="mail" type="email" placeholder="Ваш e-mail?"required>
+     </p>
+     <p>
+      <input type="submit"value="Отправить"> <input type="reset"value="Очистить">
      </p>
      </form>
      <hr>
